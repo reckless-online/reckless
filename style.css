@@ -192,7 +192,7 @@ ul { list-style: none; }
 /* --- FOOTER --- */
 footer {
     padding: 3rem;
-    background: #000;
+    background: #C58A78;
     text-align: center;
     border-top: var(--border);
 }
@@ -412,4 +412,5 @@ footer {
     background: #1ebc57;
     transform: translateY(-2px);
 }
+
 
