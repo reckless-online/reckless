@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TU BOLSA | RECKLESS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">RECKLESS<span class="dot">.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Seguir Comprando</a></li>
+        </ul>
+        <div class="cart-icon">
+            BOLSA [<span id="cart-count">0</span>]
+        </div>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <div class="page-header">
+        <h1>CHECKOUT</h1>
+    </div>
+
+    <div class="cart-page-container" id="cart-page-container">
+        
+        <div class="cart-list-section">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cant</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-table-body">
+                    </tbody>
+            </table>
+        </div>
+
+        <div class="cart-summary-section">
+    <h3>DATOS DE ENVÍO</h3>
+    
+    <div class="form-group">
+        <label>Nombre Completo:</label>
+        <input type="text" id="client-name" placeholder="Ej. Ana García">
+    </div>
+
+    <div class="form-group">
+        <label>Teléfono:</label>
+        <input type="tel" id="client-phone" placeholder="Ej. 55 1234 5678">
+    </div>
+
+    <div class="form-group">
+        <label>Dirección de Entrega:</label>
+        <textarea id="client-address" rows="3" placeholder="Calle, Número, Colonia, CP..."></textarea>
+    </div>
+
+    <hr style="border-color:#333; margin: 20px 0;">
+
+    <div class="summary-row">
+        <span>TOTAL A PAGAR:</span>
+        <span id="cart-page-total" style="color:var(--accent); font-weight:bold;">$0.00</span>
+    </div>
+
+    <button type="button" class="checkout-btn-full" onclick="sendToWhatsApp()">
+        CONFIRMAR PEDIDO EN WHATSAPP ➔
+    </button>
+
+    
+    <p class="secure-text">🔒 El pedido se enviará directamente a nuestro chat.</p>
+</div>
+
+    </div>
+
+    <footer>
+        <p>RECKLESS.CDMX - ESTILO URBANO</p>
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>
