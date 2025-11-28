@@ -1,17 +1,17 @@
 /* --- VARIABLES & RESET --- */
 :root {
-    /* PALETA BASADA EN TU INSTAGRAM */
-    --bg-color: #1A1A1A;          /* Negro suave / carbón */
-    --card-bg: #242424;           /* Fondo tarjetas */
-    --text-main: #F8F5F2;         /* Blanco cálido */
-    --text-muted: #C7BEB8;        /* Beige grisáceo */
+    /* PALETA BASADA EN TU INSTAGRAM (TONOS RECKLESS) */
+    --bg-color: #F6F2EF;          /* Fondo beige claro */
+    --card-bg: #F1E7E2;           /* Fondo tarjetas rosado claro */
+    --text-main: #2A2A2A;         /* Gris muy oscuro (casi negro) */
+    --text-muted: #8A7E76;        /* Café grisáceo suave */
     
     /* ACENTOS TONO RECKLESS */
-    --accent: #C48A78;            /* Terracota suave */
-    --accent-light: #E7D5C9;      /* Beige rosado */
-    --accent-rose: #F2C6B6;       /* Rosado cálido */
+    --accent: #C58A78;            /* Terracota suave */
+    --accent-light: #E8D7CE;      /* Beige rosado */
+    --accent-rose: #F4C8B8;       /* Rosado cálido */
 
-    --border: 1px solid #3A3A3A;
+    --border: 1px solid #D7CCC6;  /* Borde beige medio */
 
     --font-head: 'Oswald', sans-serif;
     --font-body: 'Roboto', sans-serif;
@@ -35,7 +35,7 @@ ul { list-style: none; }
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background: rgba(5, 5, 5, 0.95);
+    background:  #C58A78;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -412,3 +412,4 @@ footer {
     background: #1ebc57;
     transform: translateY(-2px);
 }
+
