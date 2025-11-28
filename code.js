@@ -2,7 +2,7 @@
 
 // 1. INVENTARIO GLOBAL (Usamos window para asegurar que se vea desde todos lados)
 window.products = [
-    { id: 1, name: "Harness Chest Black", category: "Harness", price: 450.00, image: "https://images.unsplash.com/photo-1596483756339-446d3e387c26?auto=format&fit=crop&w=600&q=80" },
+    { id: 1, name: "Harness Chest Black", category: "Harness", price: 450.00, image: "https://i.etsystatic.com/59757478/r/il/c6c03d/6926308717/il_fullxfull.6926308717_tbbl.jpg" },
     { id: 2, name: "Mesh Bodysuit Noir", category: "Bodysuits", price: 720.00, image: "https://images.unsplash.com/photo-1605763240004-7e93b172d754?auto=format&fit=crop&w=600&q=80" },
     { id: 3, name: "Inferno Lace Set", category: "Sets", price: 890.00, image: "https://images.unsplash.com/photo-1599839447477-94a50060d4b9?auto=format&fit=crop&w=600&q=80" },
     { id: 4, name: "Reckless Bralette", category: "Tops", price: 380.00, image: "https://images.unsplash.com/photo-1574676527582-77bb459a930d?auto=format&fit=crop&w=600&q=80" },
@@ -233,4 +233,5 @@ window.sendToWhatsApp = function() {
 
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
+
 }
