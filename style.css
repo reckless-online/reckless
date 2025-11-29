@@ -519,20 +519,44 @@ footer {
 
 .reckless-bg {
     position: absolute;
-    top: 10%;
-    left: 0;
+    top: 20%;              /* antes 10% */
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 18vw;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.15);
     pointer-events: none;
     z-index: 1;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
+    white-space: nowrap;
 }
+
+/* Ajuste de texto encima */
 .hero-text h1,
 .hero-text h2 {
     position: relative;
     z-index: 2;
 }
+
+/* 🌙 Móviles (pantallas pequeñas) */
+@media (max-width: 768px) {
+    .reckless-bg {
+        top: 28%;              /* lo baja */
+        font-size: 28vw;       /* más grande pero proporcional */
+        letter-spacing: 6px;   /* para que no se corte */
+    }
+}
+
+/* 📱 Celulares muy pequeños */
+@media (max-width: 480px) {
+    .reckless-bg {
+        top: 32%;              /* aún más abajo */
+        font-size: 32vw;       /* tamaño visual adecuado */
+        letter-spacing: 4px;
+    }
+}
+}
+
 
 
 
