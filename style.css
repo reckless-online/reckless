@@ -522,7 +522,7 @@ footer {
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16vw;                 /* antes 18–32vw */
+    font-size: 12vw;                 /* antes 18–32vw */
     font-weight: 700;
     color: rgba(255, 255, 255, 0.15);
     pointer-events: none;
@@ -560,6 +560,7 @@ footer {
         letter-spacing: 1px;
     }
 }
+
 
 
 
