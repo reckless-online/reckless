@@ -516,6 +516,25 @@ footer {
     transform: translateY(-2px);
 }
 
+.reckless-bg {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    font-size: 18vw;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    z-index: 1;
+    letter-spacing: 20px;
+}
+.hero-text h1,
+.hero-text h2 {
+    position: relative;
+    z-index: 2;
+}
+
+
+
 
 
 
