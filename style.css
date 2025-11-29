@@ -384,7 +384,7 @@ footer {
 .form-group input, 
 .form-group textarea {
     width: 100%;
-    background: #050505;
+    background: #f1e7e2;
     border: 1px solid #333;
     color: white;
     padding: 10px;
@@ -512,6 +512,7 @@ footer {
     color: #000;
     transform: translateY(-2px);
 }
+
 
 
 
