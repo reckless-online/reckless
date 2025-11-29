@@ -419,56 +419,59 @@ footer {
     flex-wrap: wrap;
 }
 
-/* Botones de tallas */
-.size-btn {
-    padding: 10px 16px;
-    border: 1.5px solid #ccc;
-    border-radius: 10px;
-    background: #fff;
+/* --- BOTÓN MINI PARA AGREGAR (+) --- */
+.add-mini {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ff0048;     /* rosa neón */
+    color: #fff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 20px;
+    font-weight: 700;
     cursor: pointer;
+
     transition: all 0.25s ease;
-    font-size: 15px;
-    min-width: 45px;
-    text-align: center;
-    font-weight: 500;
 }
 
 /* Hover */
-.size-btn:hover {
-    border-color: #000;
-    background: #f5f5f5;
+.add-mini:hover {
+    background: #ff0055;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 0, 80, 0.4);
 }
 
-/* Estado seleccionado */
-.size-btn.active {
-    border-color: #000;
-    background: #000;
-    color: #fff;
+/* Efecto de presión */
+.add-mini:active {
+    transform: scale(0.90);
+    box-shadow: none;
 }
-.add-to-cart {
-    width: 100%;
-    padding: 14px;
-    background: #111;
-    color: #fff;
-    font-size: 16px;
-    border: none;
+
+.add-mini {
+    width: 42px;
+    height: 42px;
     border-radius: 12px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 0.25s ease;
-}
 
-/* Hover suave */
-.add-to-cart:hover {
     background: #000;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border: 1.5px solid #fff;
+    color: #fff;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all .25s ease;
 }
 
-/* Click */
-.add-to-cart:active {
-    transform: scale(0.97);
+.add-mini:hover {
+    background: #fff;
+    color: #000;
+    transform: translateY(-2px);
 }
-
-
-
