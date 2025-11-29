@@ -475,3 +475,45 @@ footer {
     color: #000;
     transform: translateY(-2px);
 }
+
+/* --- SELECT DE TALLAS (Premium) --- */
+.size-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    padding: 10px 16px;
+    width: 100%;
+    background: #111;
+    color: #fff;
+    border: 1.5px solid #333;
+    border-radius: 12px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: all .25s ease;
+    position: relative;
+}
+
+/* Flechita personalizada */
+.size-select::after {
+    content: "▼";
+    position: absolute;
+    right: 14px;
+    pointer-events: none;
+}
+
+/* Hover */
+.size-select:hover {
+    border-color: #fff;
+    background-color: #181818;
+}
+
+/* Focus (cuando se despliega) */
+.size-select:focus {
+    outline: none;
+    border-color: #ff0048;
+    box-shadow: 0 0 6px rgba(255, 0, 72, 0.6);
+}
