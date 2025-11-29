@@ -195,6 +195,7 @@ footer {
     background: #542710;
     text-align: center;
     border-top: var(--border);
+    color: #ffffff;
 }
 .socials { margin-top: 1rem; }
 .socials a { margin: 0 10px; font-weight: bold; color: var(--text-muted); }
@@ -514,6 +515,7 @@ footer {
     color: #000;
     transform: translateY(-2px);
 }
+
 
 
 
