@@ -2,21 +2,21 @@
 
 // 1. INVENTARIO GLOBAL (Usamos window para asegurar que se vea desde todos lados)
 window.products = [
-    { id: 1, name: "Harness Chest Black", category: "Harness", price: 450.00, image: "https://images.unsplash.com/photo-1596483756339-446d3e387c26?auto=format&fit=crop&w=600&q=80",  sizes: ["CH", "M", "G"] },
-    { id: 2, name: "Mesh Bodysuit Noir", category: "Bodysuits", price: 720.00, image: "https://images.unsplash.com/photo-1605763240004-7e93b172d754?auto=format&fit=crop&w=600&q=80",  sizes: ["CH", "M", "G"] },
-    { id: 3, name: "Inferno Lace Set", category: "Sets", price: 890.00, image: "https://images.unsplash.com/photo-1599839447477-94a50060d4b9?auto=format&fit=crop&w=600&q=80",  sizes: ["CH", "M", "G"] },
-    { id: 4, name: "Reckless Bralette", category: "Tops", price: 380.00, image: "https://images.unsplash.com/photo-1574676527582-77bb459a930d?auto=format&fit=crop&w=600&q=80",  sizes: ["CH", "M", "G"] },
-    { id: 5, name: "Leather Leg Straps", category: "Accessories", price: 320.00, image: "https://images.unsplash.com/photo-1548235338-348b11155986?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 6, name: "Midnight Silk Robe", category: "Sleepwear", price: 1250.00, image: "https://images.unsplash.com/photo-1582234045544-77983656914b?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 7, name: "Toxic Love Corset", category: "Corsets", price: 1100.00, image: "https://images.unsplash.com/photo-1502456488339-b9c1048e9c9c?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 8, name: "Viper Garter Belt", category: "Accessories", price: 250.00, image: "https://images.unsplash.com/photo-1516521349070-5b5c92476d1e?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
+    { id: 1, name: "Harness Chest Black", category: "Harness", price: 450.00, image: "https://ready-to-rave.com/wp-content/uploads/2023/12/R2R-15-scaled-600x800.jpg",  sizes: ["CH", "M", "G"] },
+    { id: 2, name: "Mesh Bodysuit Noir", category: "Bodysuits", price: 720.00, image: "https://ellaz.com/cdn/shop/files/CorsetBodysuit04_Black_grande.jpg?v=1730955025",  sizes: ["CH", "M", "G"] },
+    { id: 3, name: "Inferno Lace Set", category: "Sets", price: 890.00, image: "https://resources.claroshop.com/medios-plazavip/fotos/productos_sears1/original/3643584.jpg",  sizes: ["CH", "M", "G"] },
+    { id: 4, name: "Reckless Bralette", category: "Tops", price: 380.00, image: "https://ellaz.com/cdn/shop/files/TriangleBralette01_Black_3f7d70cb-26d2-4b9e-a2c0-62b7cf35bb26.jpg?v=1730956604",  sizes: ["CH", "M", "G"] },
+    { id: 5, name: "Leather Leg Straps", category: "Accessories", price: 320.00, image: "https://ae-pic-a1.aliexpress-media.com/kf/S7426e587431e4386abf0298cb3fd180fR.png", sizes: ["CH", "M", "G"] },
+    { id: 6, name: "Midnight Silk Robe", category: "Sleepwear", price: 1250.00, image: "https://www.petite-plume.com/cdn/shop/files/ASWRMNB_2FASWRMNB_Navy_5.jpg?v=1741721697&width=2048", sizes: ["CH", "M", "G"] },
+    { id: 7, name: "Toxic Love Corset", category: "Corsets", price: 1100.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0R-LtT6Xf9LF-zvKPSUhQMfAddNY31IU0FA&s", sizes: ["CH", "M", "G"] },
+    { id: 8, name: "Viper Garter Belt", category: "Accessories", price: 250.00, image: "https://www.lavieenrose.com/globalassets/4---pictures/pictures-21f2-and--/lingerie-accessories/garter-belt-roses-lace-10400001-00001/596-124-1-00_00001_1_mashal.jpg", sizes: ["CH", "M", "G"] },
     { id: 9, name: "Sheer Destruction Top", category: "Tops", price: 420.00, image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
     { id: 10, name: "Bad Reputation Chains", category: "Accessories", price: 550.00, image: "https://images.unsplash.com/photo-1616149562385-1d84e79478bb?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 11, name: "Neon Demon Set", category: "Sets", price: 680.00, image: "https://images.unsplash.com/photo-1621786040858-207a97405230?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"]},
-    { id: 12, name: "Fishnet Danger", category: "Bottoms", price: 200.00, image: "https://images.unsplash.com/photo-1555662762-b91c0137d036?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 13, name: "Obscure Body", category: "Bodysuits", price: 750.00, image: "https://images.unsplash.com/photo-1607557162590-7c2a7e78696d?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 14, name: "Velvet Crush Panty", category: "Bottoms", price: 280.00, image: "https://images.unsplash.com/photo-1594892403666-9b578c740707?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] },
-    { id: 15, name: "Tokyo Drift Kimono", category: "Sleepwear", price: 1500.00, image: "https://images.unsplash.com/photo-1596483669670-c5c2d3c90772?auto=format&fit=crop&w=600&q=80", sizes: ["CH", "M", "G"] }
+    { id: 11, name: "Neon Demon Set", category: "Sets", price: 680.00, image: "https://m.media-amazon.com/images/I/61lMQdBZR8L._AC_UF894,1000_QL80_.jpg", sizes: ["CH", "M", "G"]},
+    { id: 12, name: "Fishnet Danger", category: "Bottoms", price: 200.00, image: "https://cdn.shopify.com/s/files/1/0293/9277/files/09-09-25_S4PM_9_9717FNA_Black_RK_AC_17-23-13_1485_PXF.jpg?v=1757616569", sizes: ["CH", "M", "G"] },
+    { id: 13, name: "Obscure Body", category: "Bodysuits", price: 750.00, image: "https://www.corse.mx/cdn/shop/files/image00003_842abbd8-405a-4839-8173-65a7edc61f3c_1.jpg?v=1749152433&width=1445", sizes: ["CH", "M", "G"] },
+    { id: 14, name: "Velvet Crush Panty", category: "Bottoms", price: 280.00, image: "https://www.victoriassecret.com/p/874x1165/png/zz/24/02/01/02/1124542792D0_OM_F.jpg", sizes: ["CH", "M", "G"] },
+    { id: 15, name: "Tokyo Drift Kimono", category: "Sleepwear", price: 1500.00, image: "https://i5.walmartimages.com/asr/0e930b43-dc66-4749-b8d5-6236ad981aa3.d8429496c5352b1be6b870498e210161.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF", sizes: ["CH", "M", "G"] }
 ];
 
 // 2. RECUPERAR DATOS AL INICIO
@@ -243,3 +243,4 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
