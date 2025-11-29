@@ -80,6 +80,7 @@ ul { list-style: none; }
 
 .hero-text h2 {
     font-family: var(--font-head);
+    color: #fff;
     font-size: 2rem;
     letter-spacing: 5px;
     margin-bottom: 10px;
@@ -532,6 +533,7 @@ footer {
     position: relative;
     z-index: 2;
 }
+
 
 
 
