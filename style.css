@@ -369,7 +369,9 @@ footer {
 }
 
 /* --- ESTILOS DEL FORMULARIO (cart.html) --- */
-
+.cart-summary-section {
+    background: #f1e7e2;
+}
 .form-group {
     margin-bottom: 15px;
 }
@@ -512,6 +514,7 @@ footer {
     color: #000;
     transform: translateY(-2px);
 }
+
 
 
 
