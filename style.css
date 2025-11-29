@@ -7,7 +7,7 @@
     --text-muted: #8A7E76;        /* Café grisáceo suave */
     
     /* ACENTOS TONO RECKLESS */
-    --accent: #C58A78;            /* Terracota suave */
+    --accent: #542710;            /* Terracota suave */
     --accent-light: #E8D7CE;      /* Beige rosado */
     --accent-rose: #F4C8B8;       /* Rosado cálido */
 
@@ -35,7 +35,7 @@ ul { list-style: none; }
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background:  #C58A78;
+    background:  #542710;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -192,7 +192,7 @@ ul { list-style: none; }
 /* --- FOOTER --- */
 footer {
     padding: 3rem;
-    background: #C58A78;
+    background: #542710;
     text-align: center;
     border-top: var(--border);
 }
@@ -514,6 +514,7 @@ footer {
     color: #000;
     transform: translateY(-2px);
 }
+
 
 
 
