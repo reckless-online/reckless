@@ -272,7 +272,7 @@ footer {
 /* --- ESTILOS PAGINA CARRITO (cart.html) --- */
 
 .page-header {
-    background: #f1e7e2;
+    background: #000000;
     padding: 60px 5%;
     text-align: center;
     border-bottom: 1px solid #333;
@@ -514,6 +514,7 @@ footer {
     color: #000;
     transform: translateY(-2px);
 }
+
 
 
 
