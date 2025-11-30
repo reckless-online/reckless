@@ -561,6 +561,56 @@ footer {
     }
 }
 
+/* --- RESPONSIVE TABLE CARRITO --- */
+.cart-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 450px; /* evita que todo se aplaste */
+}
+
+@media (max-width: 600px) {
+
+    .cart-table th,
+    .cart-table td {
+        font-size: 14px;
+        padding: 10px 6px;
+        text-align: center;
+    }
+
+    /* Imagen más pequeña */
+    .cart-product-info img {
+        width: 65px;
+        height: auto;
+    }
+
+    /* Ajustes del nombre, talla, categoría */
+    .cart-product-info div {
+        font-size: 13px;
+    }
+    .cart-product-info .name {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Botón eliminar más pequeño */
+    .remove-link {
+        font-size: 13px !important;
+    }
+
+    /* Evita que las columnas se junten demasiado */
+    .cart-table th {
+        padding: 8px 4px;
+    }
+}
+
+
+
 
 
 
