@@ -135,7 +135,7 @@ window.renderShop = function(list) {
                 </div>
                 <div class="price-row">
                     <span class="prod-price">$${item.price}</span>
-                    <button class="add-mini" onclick="window.addToCart(${item.id})">+</button>
+                    <button class="add-mini" onclick="window.addToCart(${item.id})">Añadir al carrito +</button>
                 </div>
             </div>
         </article>
@@ -243,5 +243,6 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
