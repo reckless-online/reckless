@@ -55,7 +55,7 @@ window.addToCart = function(id) {
         });
         window.saveCart(); // Guardar cambios
         
-        alert(`¡${product.name} AGREGADO A LA BOLSA!`);
+        //alert(`¡${product.name} AGREGADO A LA BOLSA!`);
         
         // Animación visual
         const counter = document.getElementById('cart-count');
@@ -243,4 +243,5 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
