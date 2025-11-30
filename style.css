@@ -1,17 +1,14 @@
-/* --- VARIABLES & RESET --- */
 :root {
-    /* PALETA BASADA EN TU INSTAGRAM (TONOS RECKLESS) */
-    --bg-color: #F6F2EF;          /* Fondo beige claro */
-    --card-bg: #F1E7E2;           /* Fondo tarjetas rosado claro */
-    --text-main: #2A2A2A;         /* Gris muy oscuro (casi negro) */
-    --text-muted: #8A7E76;        /* Café grisáceo suave */
+    --bg-color: #F6F2EF;          
+    --card-bg: #F1E7E2;          
+    --text-main: #2A2A2A;       
+    --text-muted: #8A7E76;     
     
-    /* ACENTOS TONO RECKLESS */
-    --accent: #542710;            /* Terracota suave */
-    --accent-light: #E8D7CE;      /* Beige rosado */
-    --accent-rose: #F4C8B8;       /* Rosado cálido */
+    --accent: #542710;           
+    --accent-light: #E8D7CE;    
+    --accent-rose: #F4C8B8;    
 
-    --border: 1px solid #D7CCC6;  /* Borde beige medio */
+    --border: 1px solid #D7CCC6; 
 
     --font-head: 'Oswald', sans-serif;
     --font-body: 'Roboto', sans-serif;
@@ -608,6 +605,7 @@ footer {
         padding: 8px 4px;
     }
 }
+
 
 
 
