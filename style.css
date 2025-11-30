@@ -610,12 +610,15 @@ footer {
     color: #555; /* puedes poner blanco si tu fondo es oscuro */
 }
 
-.price-row {
+.add-row {
     display: flex;
     align-items: center;
-    gap: 8px; /* Espaciado entre texto y botón */
-    white-space: nowrap; /* Evita que el texto se baje a otra línea */
+    gap: 8px;
+    white-space: nowrap;
+    margin-top: 4px; /* opcional, para que no quede pegado al precio */
 }
+
+
 
 
 
