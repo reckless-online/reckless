@@ -614,7 +614,6 @@ footer {
     display: inline-block;
     padding: 4px 8px;
     border-radius: 6px;
-    background: rgba(0,0,0,0.05); /* Cambia a rgba(255,255,255,0.1) si el fondo es oscuro */
     transition: all 0.25s ease;
     cursor: default;
 }
@@ -625,26 +624,6 @@ footer {
     white-space: nowrap;
     margin-top: 4px; /* opcional, para que no quede pegado al precio */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
