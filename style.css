@@ -607,9 +607,17 @@ footer {
 }
 .add-text {
     font-size: 14px;
-    color: #555; /* puedes poner blanco si tu fondo es oscuro */
+    color: #444;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.05); /* Cambia a rgba(255,255,255,0.1) si el fondo es oscuro */
+    transition: all 0.25s ease;
+    cursor: default;
 }
-
 .add-row {
     display: flex;
     align-items: center;
@@ -617,6 +625,7 @@ footer {
     white-space: nowrap;
     margin-top: 4px; /* opcional, para que no quede pegado al precio */
 }
+
 
 
 
