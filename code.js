@@ -118,6 +118,18 @@ window.filterProducts = function(category) {
     window.renderShop(filtered);
 }
 
+window.selectColor = function(productId, colorName, el) {
+    // Quitar selección previa
+    document.querySelectorAll(`#colors-${productId} .color-dot`)
+        .forEach(dot => dot.classList.remove('selected'));
+
+    // Marcar actual
+    el.classList.add('selected');
+
+    // Guardar selección temporal
+    el.closest('.product-card').dataset.color = colorName;
+}
+
 
 // 4. INICIALIZADOR AUTOMÁTICO
 document.addEventListener('DOMContentLoaded', () => {
@@ -292,6 +304,7 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
 
