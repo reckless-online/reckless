@@ -18,7 +18,7 @@ window.products = [
     { id: 14, name: "Cot", category: "Set de dos piezas", price: 250.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Cot.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 15, name: "Vero", category: "Set de dos piezas", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Vero.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 16, name: "Clementine", category: "Set de dos piezas", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Clementine.jpg", sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"] },
-    { id: 17, name: "Melody", category: "Set de dos piezas", price: 360.00, image: "https://github.com/reckless-online/reckless/blob/main/images/Melody.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
+    { id: 17, name: "Melody", category: "Set de dos piezas", price: 360.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Melody.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 18, name: "Lili", category: "Set de dos piezas", price: 370.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lili.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 19, name: "Moi", category: "Set de dos piezas", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Moi.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 20, name: "Baby Blue", category: "Set de dos piezas", price: 400.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Baby%20blue.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
@@ -261,6 +261,7 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
 
