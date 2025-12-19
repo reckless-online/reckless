@@ -166,6 +166,17 @@ window.renderShop = function(list) {
                     <select id="size-${item.id}" class="size-select">
                         ${item.sizes.map(size => `<option value="${size}">${size}</option>`).join("")}
                     </select>
+                    ${item.colors ? `
+                    <div class="color-row" id="colors-${item.id}">
+                        ${item.colors.map((c, i) => `
+                            <div 
+                                class="color-dot ${i === 0 ? 'selected' : ''}"
+                                style="background:${c.hex}"
+                                onclick="window.selectColor(${item.id}, '${c.name}', this)">
+                            </div>
+                        `).join("")}
+                    </div>
+                    ` : ""}
                 </div>
                 <div class="price-row">
                     <span class="prod-price">$${item.price}</span>
@@ -281,6 +292,7 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
 
