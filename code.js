@@ -88,7 +88,7 @@ window.addToCart = function(id) {
     if(product) {
         window.cartItems.push({
             ...product,
-            selectedSize: selectedSize
+            selectedSize: selectedSize,
             selectedColor: selectedColor
         });
         window.saveCart(); // Guardar cambios
@@ -171,7 +171,7 @@ window.renderShop = function(list) {
     if(!grid) return;
 
     grid.innerHTML = list.map(item => `
-        <article class="product-card">
+        <article class="product-card" ${item.colors ? `data-color="${item.colors[0].name}"` : ``}>
             <div class="img-box">
                 <img src="${item.image}" alt="${item.name}">
             </div>
@@ -309,16 +309,4 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
