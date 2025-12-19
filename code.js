@@ -29,27 +29,27 @@ window.products = [
     { id: 25, name: "Bill", category: "Set de dos piezas", price: 280.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Bill.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 26, name: "Lelith", category: "Set de dos piezas", price: 400.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lelith.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 27, name: "Govyna", category: "Set de dos piezas", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Govyna.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 28, name: "Jane", category: "Set de dos piezas", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Jane.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL" ]},
-    { id: 29, name: "Molly", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Moly.jpg", sizes: ["XS", "S", "M", "L" , "XL" ] },
-    { id: 30, name: "Donatella", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Donatella.jpg", sizes: ["XS", "S", "M", "L" , "XL" ] },
-    { id: 31, name: "Gianni", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Gianni.jpg", sizes: ["XS", "S", "M", "L" , "XL" ]},
+    { id: 28, name: "Jane", category: "Set de dos piezas", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Jane.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"]},
+    { id: 29, name: "Molly", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Moly.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 30, name: "Donatella", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Donatella.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 31, name: "Gianni", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Gianni.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"]},
     { id: 32, name: "Moda", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Moda.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 33, name: "Dina", category: "Set con ligueros", price: 400.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Dina.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL" ] },
-    { id: 34, name: "Carrie", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Carrie.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
-    { id: 35, name: "Mar", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Mar.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
-    { id: 36, name: "Tobi", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Tobi.jpg", sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"] },
-    { id: 37, name: "Lowe", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lowe.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
+    { id: 33, name: "Dina", category: "Set con ligueros", price: 400.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Dina.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 34, name: "Carrie", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Carrie.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 35, name: "Mar", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Mar.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 36, name: "Tobi", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Tobi.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 37, name: "Lowe", category: "Set con ligueros", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lowe.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 38, name: "Basics", category: "Set con ligueros", price: 300.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Basics.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 39, name: "Bluebe", category: "Set con ligueros", price: 370.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Bluebe.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 40, name: "Consorte", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Consorte.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 41, name: "Pillow", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Pillow.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
     { id: 42, name: "Florance", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Florance.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 43, name: "Tara", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lipa.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
-    { id: 44, name: "More", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Marina.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 45, name: "Wonder", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Bill.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 46, name: "Asia", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lelith.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 47, name: "Lloguer", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Govyna.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
-    { id: 48, name: "Corina", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Jane.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL" ]},
+    { id: 43, name: "Tara", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Tara.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 44, name: "More", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/More.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 45, name: "Wonder", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Wonder.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 46, name: "Asia", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Asia.jpg", sizes: ["XS", "S", "M", "L", "XL", "2XL"] },
+    { id: 47, name: "Lloguer", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Lloguer.jpg", sizes: ["XS", "S", "M", "L", "XL"] },
+    { id: 48, name: "Corina", category: "Set con ligueros", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Corina.jpg", sizes: ["XS", "S", "M", "L", "XL"]},
 
 ];
 
@@ -281,6 +281,7 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
 
