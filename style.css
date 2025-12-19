@@ -625,6 +625,26 @@ footer {
     margin-top: 4px; /* opcional, para que no quede pegado al precio */
 }
 
+.color-row {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.color-dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.color-dot.selected {
+    border: 2px solid #ff0033;
+}
+
+
+
 
 
 
