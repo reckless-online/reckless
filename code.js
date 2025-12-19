@@ -82,10 +82,14 @@ window.addToCart = function(id) {
     console.log("Intentando agregar ID:", id);
     const product = window.products.find(p => p.id === id);
     const selectedSize = document.getElementById(`size-${id}`)?.value || "M";
+    const card = document.querySelector(`.product-card button[onclick="window.addToCart(${id})"]`)?.closest('.product-card');
+    const selectedColor = card?.dataset.color || "Único";
+    
     if(product) {
         window.cartItems.push({
             ...product,
             selectedSize: selectedSize
+            selectedColor: selectedColor
         });
         window.saveCart(); // Guardar cambios
         
@@ -224,6 +228,7 @@ window.renderCartPage = function() {
                         <p class="name">${item.name}</p>
                         <p class="cat">${item.category}</p>
                         <p class="size">Talla: ${item.selectedSize}</p>
+                        <p class="color">Color: ${item.selectedColor}</p>
                     </div>
                 </div>
             </td>
@@ -287,7 +292,7 @@ window.sendToWhatsApp = function() {
     message += `*PEDIDO:*%0A`;
 
     window.cartItems.forEach((item, index) => {
-        message += `- ${item.name}  | Talla: ${item.selectedSize} ($${item.price})%0A`;
+        message += `- ${item.name}  | Talla: ${item.selectedSize} | Color: ${item.selectedColor} ($${item.price})%0A`;
     });
 
     // Calcular total
@@ -304,6 +309,7 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
 
