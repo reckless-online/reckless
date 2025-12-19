@@ -2,7 +2,7 @@
 
 // 1. INVENTARIO GLOBAL (Usamos window para asegurar que se vea desde todos lados)
 window.products = [
-    { id: 1, name: "Mary", category: "Body", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Mary.jpg",  sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"] },
+    { id: 1, name: "Mary", category: "Body", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Mary.jpg",  sizes: ["S", "M", "L", "XL", "2XL", "3XL", "4XL"],   colors: [{ name: "Negro", hex: "#000000" }, { name: "Rojo", hex: "#c1001f" }, { name: "Vino", hex: "#5a0f1b" }] },
     { id: 2, name: "Clarance", category: "Body", price: 380.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Clarance.jpg",  sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 3, name: "Erly", category: "Body", price: 400.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Erly.jpg",  sizes: ["XS", "S", "M", "L", "XL"] },
     { id: 4, name: "Bonde", category: "Body", price: 350.00, image: "https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Bonde.jpg",  sizes: ["XS", "S", "M", "L", "XL"] },
@@ -281,6 +281,7 @@ window.sendToWhatsApp = function() {
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
 
