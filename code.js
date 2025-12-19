@@ -301,12 +301,13 @@ window.sendToWhatsApp = function() {
     // 5. Crear el Link de WhatsApp
     // CAMBIA ESTE NÚMERO POR EL DE LA DUEÑA (Código país + número)
     // Ejemplo México: 521 + 55 + número
-    const phoneNumber = "5215562090727"; 
+    const phoneNumber = "5215541126429"; 
     
     const url = `https://wa.me/${phoneNumber}?text=${message}`;
 
     // 6. Abrir WhatsApp en nueva pestaña
     window.open(url, '_blank');
 }
+
 
 
