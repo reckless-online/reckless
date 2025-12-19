@@ -57,7 +57,7 @@ ul { list-style: none; }
 /* --- HERO SECTION --- */
 .hero {
     height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('https://scontent-qro1-1.cdninstagram.com/v/t51.75761-15/482956492_18261155251274955_2963906378118256632_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&cb=8438d1d6-990335f2&ig_cache_key=MzU4MDk3MTkwNjgzODEwNDU1Mg%3D%3D.3-ccb7-5-cb8438d1d6-990335f2&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Lsc2j45oghoQ7kNvwGzyFdV&_nc_oc=AdnO5hbpg3F2XCH0GD__cHdeQk8bfO6-c7RNPos3Z58cGUWH7Fh00Gl58xcaXkeETCQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-qro1-1.cdninstagram.com&_nc_gid=LtJRkgk4-iaSLAQYHRIZhg&oh=00_AfhOOCfeWStWUaVPvuf3xxpc1WEsD_ChnLHaN3DuMI8Gig&oe=69301554');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('https://raw.githubusercontent.com/reckless-online/reckless/refs/heads/main/images/Fondo.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -624,6 +624,7 @@ footer {
     white-space: nowrap;
     margin-top: 4px; /* opcional, para que no quede pegado al precio */
 }
+
 
 
 
