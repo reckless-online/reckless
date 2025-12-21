@@ -643,6 +643,13 @@ footer {
     border: 2px solid #ff0033;
 }
 
+.menu-toggle {
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
 
 
 
